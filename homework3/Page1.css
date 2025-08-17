@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    min-width: 800px;
+    margin: 100px auto;
+}
+
+thead tr:first-child {
+    background-color: rgb(173,216,230);
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+
+td {
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    border: none;
+}
+
+td:first-child {
+    background-color: rgb(173,216,230);
+    font-weight: bold;
+    position: sticky;
+    left: 0;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(245,245,245);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233,233,233);
+}

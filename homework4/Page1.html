@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Details</title>
+    <link rel="stylesheet" href="Page1.css">
+</head>
+<body>
+<div class="container">
+    <div class="container-inscription">CREDIT CARD DETAILS</div>
+    <div class="form-wrapper">
+        <div class="form-container">
+            <form>
+                <div class="simple-input-row" id="first-input">
+                    <label>Card number<br>
+                        <input type="text" placeholder="1234 5678 9012 3456" maxlength="19" />
+                    </label>
+                </div>
+                <div class="simple-input-row">
+                    <label>Name on card<br>
+                        <input type="text" placeholder="Name Surname" />
+                    </label>
+                </div>
+                <div class="complex-input-row">
+                    <div class="nested-input-row">
+                        <label>Expiry date
+                            <input type="text" placeholder="02" />
+                        </label>
+                    </div>
+                    <div class="nested-input-row">
+                        <label><br>
+                            <input type="text" placeholder="2017" />
+                        </label>
+                    </div>
+                    <div class="nested-input-row" id="last-nested-row">
+                        <label>CVC/CVN
+                            <input type="text" placeholder="***" />
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="card-logo">
+            <img src="img/moon_flag.png" alt="Card Logo">
+        </div>
+    </div>
+</div>
+</body>
+</html>

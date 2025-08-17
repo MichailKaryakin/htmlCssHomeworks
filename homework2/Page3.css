@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    color: #333;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pronunciation {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+dt {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li p {
+    margin: 0;
+}
+
+.example {
+    color: gray;
+    margin: 5px 0;
+}
+
+.synonyms span {
+    color: #5978ff;
+}
+
+span {
+    font-weight: bold;
+}
