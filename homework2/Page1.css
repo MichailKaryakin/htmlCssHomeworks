@@ -1,0 +1,30 @@
+ol {
+    background-color: #e4a6a6;
+    padding: 20px;
+    width: 500px;
+    margin: 100px auto;
+}
+
+li {
+    background-color: #c66a6a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-position: inside;
+}
+
+li span {
+    background-color: #a94545;
+    padding: 7px 14px;
+    display: inline-block;
+}
+
+li:first-child {
+    margin-top: 0;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}

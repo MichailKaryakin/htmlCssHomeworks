@@ -1,0 +1,22 @@
+.player-title {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    color: #003c77;
+}
+
+.card-block {
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+}
+
+.card {
+    margin-right: 5px;
+    background-color: #dedddd;
+    padding: 2px 15px;
+}
+
+.red-card {
+    color: #922319;
+}

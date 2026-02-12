@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 20px;
+    height: 400px;
+    width: 250px;
+    align-content: center;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: sans-serif;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+hr {
+    border-bottom: solid 3px;
+}
+
+#enterprise-line {
+    color: #e91e63;
+}
+
+#professional-line {
+    color: #e6a323;
+}
+
+#standard-line {
+    color: #2b4d72;
+}
+
+#basic-line {
+    color: #4ba32d;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.card .per-month {
+    color: #ccc;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.card.professional button {
+    background: #e6a323;
+}
+
+.card.standard button {
+    background: #2b4d72;
+}
+
+.card.basic button {
+    background: #4ba32d;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+.p-bottom-margin {
+    margin-bottom: 30px;
+}
